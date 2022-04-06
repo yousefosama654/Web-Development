@@ -1,0 +1,209 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homecap
+{
+
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.navbar
+{
+display: flex;
+justify-content: space-between;
+right: 0;
+left:0;
+position: fixed;
+width: 100%;
+margin: auto;
+background-color: rgba(0, 0,0, .2);
+padding: 0 10px;
+/*  width 90  and margin auto to be samller little bit and centered  */
+}
+.links ul
+{
+display: flex;
+list-style-type: none;
+justify-content: space-evenly; 
+}
+.links ul li
+{
+padding-top: 30px;
+padding-left: 20px;
+color:#fff;
+margin: auto;
+}
+.logo
+{
+width:20%;
+}
+.logo img
+{
+width: 100%;
+}
+.homecap p
+{
+font-size :30px;
+}
+.btn
+{
+padding: 14px;
+border-radius: 5px;
+color: #fff;
+border: none;
+margin-top: 20px; ;
+}
+.btn_1
+{
+background-color: transparent;
+border-width: 3px;
+border-style:solid;
+border-color: #fff;
+}
+.btn_2
+{
+background-color: darksalmon;
+border-width: 3px;
+border-style:solid;
+border-color: darksalmon;
+    
+}
+.homecap h1
+{
+    font-weight: bold;
+    font-size: 55px;
+}
+.about
+{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+   /*  margin-top: 50px; */
+   align-items: center;
+   color: #686868;
+}
+.pic_des
+{
+    font-size: 23px;
+    text-align: center;
+    width: 40% ;   
+}
+.pic_des ul
+{
+    list-style-type: circle;
+ 
+}
+.pic_des li
+{
+
+margin: 20px 0px;
+}
+.pic_des p
+{
+    margin: 20px 0px;
+}
+.pic_des h1
+{
+    color: #000;
+}
+.pic
+{
+    width: 40% ;
+  
+}
+.pic img
+{
+    width: 90%;
+}
+.lefttxt
+{
+    text-align: left;
+}
+.offer
+{
+    width: 90%;
+    margin: auto;
+    /* to center the 2 divs */
+    height: 100vh; 
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   /*  background-color:blanchedalmond; */
+}
+
+.offer_des p
+{
+    padding: 30px 0px;
+       font-size: 23px;
+    padding-right: 30px;
+    color: #686868;
+}
+.offer_pic
+{
+    width: 100%;
+    padding-right: 20px;
+}
+.offer_pic img
+{
+    width: 100%;
+}
+.gallery
+{
+    height: 100vh;
+    text-align: center;
+}
+.pics
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+picture
+{
+    width: 33.33%;
+  
+    
+}
+.pics img
+{
+    padding: 35px;
+    width: 100%;
+}
+.picture p
+{
+    color: #686868;
+    padding: 10px 15px ;
+    /* sol to make the   */
+}
+.contacts
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+padding: 0px 30px;
+}
+.contacts p
+{
+   padding: 40px 60px;
+   color: #686868;
+}
