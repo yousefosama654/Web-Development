@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CRUD</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1 class="fs-1 text-center text-decoration-underline">
+        Product Management system
+      </h1>
+      <label for="productNameInput" class="my-3">product Name : </label>
+      <input type="text" id="productNameInput" class="form-control" />
+      <label for="productPriceInput" class="my-3">product Price : </label>
+      <input type="number" id="productPriceInput" class="form-control" />
+      <label for="productCategoryInput" class="my-3">product Category : </label>
+      <input type="text" id="productCategoryInput" class="form-control" />
+      <label for="productDescriptionInput" class="my-3"
+        >product Description :</label
+      >
+      <textarea class="form-control" id="productDescriptionInput"></textarea>
+      <div class="row my-3">
+        <button
+          id="addproductbutton"
+          onclick="addProduct()"
+          class="btn btn-info ms-auto w-auto"
+        >
+          ADD Product
+        </button>
+        <button
+          id="updateproductbutton"
+          onclick="updateProduct()"
+          class="btn d-none btn-warning ms-auto w-auto"
+        >
+          Update Product
+        </button>
+      </div>
+    </div>
+
+    <div class="container mx-auto">
+      <label for="searchInput" class="mt-5">Search : </label>
+      <input
+        type="text"
+        id="searchInput"
+        class="my-3 form-control"
+        placeholder="search for your product"
+      />
+      <table class="table table-striped">
+        <thead>
+          <th>product Name</th>
+          <th>product Price</th>
+          <th>product Category</th>
+          <th>product Description</th>
+          <th>update</th>
+          <th>delete</th>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="yousef.js"></script>
+    <!-- <script src="local.js"></script> -->
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
